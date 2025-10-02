@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Fredericka+the+Great&display=swap');
+
+/*
+
+    em html id CSS = #
+    em html class CSS = .
+
+*/
+
+
+body {
+
+    background-image: linear-gradient(to right,#c6e6d0,#b4e6c4);
+
+}
+
+#Principal {
+   
+    color: #265034;
+    background-color: #47945F;
+    border-radius: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #265034;
+}
+
+h2 {
+    color: #377249;
+}
+
+p {
+    font: normal normal 1em "Fredericka the Great", serif;
+    text-align:justify;
+    text-indent: 20px;
+    
+}
+
+.basico {
+    color: #569945;
+}
+
+.intermediario {
+    color: #929945;
+}
+
+.avancado {
+    color: #994545;
+}
+
+.titulo {
+    color: #377249;
+    
+}
