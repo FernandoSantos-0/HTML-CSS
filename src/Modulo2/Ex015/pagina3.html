@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+
+    <style>
+
+        /*
+        
+        # = id
+        . = class
+        : = pseudo element
+        :: =  pseudo class
+        > = child
+
+        */
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: aqua;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: cadetblue;
+        }
+
+        a:active {
+            color: yellowgreen;
+        }
+
+        .especial::before{
+            content: '> ';
+            color: cornflowerblue;
+        }
+        .especial::after {
+            content: ' <';
+            color: cornflowerblue;
+        }
+
+        .especial {
+            background-color: rgb(210, 75, 75);
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Pseudo-Elementos</h1>
+
+    <h2>Personalizando links</h2>
+
+    <ul>
+
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="prox" class="especial" >Canal Youtube</a></li>
+
+    </ul>
+
+</body>
+</html>
