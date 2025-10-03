@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(145, 233, 178);
+    
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+header {
+
+    background-image: linear-gradient(to top,rgb(52, 104, 52), #48B64E);
+    padding: 20px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px
+}
+
+header > nav > a {
+
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 25px;
+
+}
+
+header > nav > a:hover {
+
+    box-shadow: inset 3px 1px 2px 0.5px #00000042;
+
+}
+
+header nav {
+
+    padding-top: 50px;
+   
+    
+}
