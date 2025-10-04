@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+
 body {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -18,13 +23,24 @@ p {
     color: white;
 }
 
+a::after {
+    content: " 🔗.";
+}
+a {
+    color: #1b761f;
+    text-decoration: none;
+
+}
+
 header {
 
     background-image: linear-gradient(to top,rgb(52, 104, 52), #48B64E);
     padding: 20px;
     margin-top: -8px;
     margin-left: -8px;
-    margin-right: -8px
+    margin-right: -8px;
+    box-shadow: 2px 2px 3px 0px #000000a1;
+
 }
 
 header > nav > a {
@@ -32,7 +48,7 @@ header > nav > a {
     color: white;
     text-decoration: none;
     text-align: left;
-    padding: 25px;
+    padding: 20px;
 
 }
 
@@ -47,4 +63,116 @@ header nav {
     padding-top: 50px;
    
     
+}
+
+main {
+ 
+    font-family: 'idroid', Helvetica, sans-serif;
+    background-color: white;
+    width: 800px;
+    height: 2350px;
+    margin: auto;
+    padding-top: 1px;
+    margin-top: 2px;
+    border-radius: 1px 1px 10px 10px;
+
+}
+
+picture {
+
+    display: block;
+    margin: auto;
+
+}
+
+.titulo {
+    color: rgb(25, 121, 39);
+    text-align: left;
+    text-indent: 10px;
+    font-family: 'idroid',sans-serif;
+
+}
+
+.especial {
+
+    background-image: linear-gradient(to right,rgb(105, 198, 71), rgba(255, 255, 255, 0));
+
+}
+
+.textomain {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-indent: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+
+}
+
+picture {
+
+    display: block;
+    text-align: center;
+
+}
+
+main > div {
+
+    background-color: #124b15;
+    text-align: center;
+    padding: 20px;
+
+}
+
+main > section {
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #70be94;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.277);
+
+}
+
+section > p {
+
+    color: #000000;
+    text-align: left;
+    text-indent: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+}
+section > h1 {
+
+    background-color: #124b34;
+    color: #ffffff;
+    text-align: left;
+    text-indent: 10px;
+    
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+footer {
+
+    background-color: rgb(24, 95, 24);
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+.semconte {
+    color: #000000;
+}
+.semconte::after {
+    content: "";
+}
+
+.semconteudo::after {
+     content: "";
 }
