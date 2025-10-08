@@ -56,16 +56,10 @@ main > section {
 
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 30px;
+    line-height: 2em;
     font-size: 6vh;
     font-weight: bold;
-
-}
-
-.texto {
-
-    
 
 }
 
@@ -73,18 +67,33 @@ main > section {
 
     background-color: rgba(0, 0, 0, 0.429);
     color: white;
-    max-width: 70vh;
-    padding-left: 5px;
-    margin-left: 30px;
+    display: inline-block;
     padding-top: 0px;
     padding-bottom: 0px;
-   
+
 
 }
 
 .imagem {
 
+    background-color: gray;
+    box-shadow: inset 4px 3px 5px 0px rgba(0, 0, 0, 0.251);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#img01{
+
     background-image: url('imagens/background001.jpg');
+    
+
+}
+
+#img02 {
+
+    background-image: url('imagens/background002.jpg');
+    
 
 }
 
