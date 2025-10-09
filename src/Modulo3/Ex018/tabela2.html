@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+
+    <style>
+
+    table {
+
+    border-collapse: collapse;
+    width: 400px;
+    height: 100px;
+
+    }
+
+    td {
+
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+        vertical-align: top;
+
+    }
+
+    thead {
+
+        background-color: gray;
+
+    }
+
+    tbody {
+
+        background-color: aqua;
+
+    }
+
+    tfoot {
+        background-color: rgb(254, 227, 21);
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Uso de tabela Grande</h1>
+
+    <!--
+        anatomia tabela grande 
+            tabela
+                cabeca da tabela header
+                    tr td th
+                corpor da tabela main
+                    tr td th
+                rodape da tabela footer
+                    tr td th
+    -->
+    <table>
+
+        <thead>
+            <td>estado</td>
+            <td>população</td>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Sao paulo</td>
+                <td>40 milhoes</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td>10 milhoes</td>
+            </tr>
+            
+
+        </tbody>
+
+        <tfoot>
+
+            <td>Soma:</td>
+            <td>50 milhoes</td>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>
