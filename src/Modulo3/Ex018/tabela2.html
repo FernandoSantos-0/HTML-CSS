@@ -15,7 +15,7 @@
 
     }
 
-    td {
+    td, caption{
 
         border: 1px solid black;
         padding: 10px;
@@ -30,14 +30,9 @@
 
     }
 
-    tbody {
-
-        background-color: aqua;
-
-    }
 
     tfoot {
-        background-color: rgb(254, 227, 21);
+        background-color:gray;
     }
 
     </style>
@@ -50,6 +45,7 @@
     <!--
         anatomia tabela grande 
             tabela
+                caption nome da tabela
                 cabeca da tabela header
                     tr td th
                 corpor da tabela main
@@ -59,14 +55,20 @@
     -->
     <table>
 
+        <caption>
+
+            População Dos Estados Brasil
+
+        </caption>
+
         <thead>
-            <td>estado</td>
+            <td >estado</td>
             <td>população</td>
         </thead>
 
         <tbody>
 
-            <tr>
+            <tr >
                 <td>Sao paulo</td>
                 <td>40 milhoes</td>
             </tr>
