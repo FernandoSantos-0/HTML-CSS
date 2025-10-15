@@ -1,0 +1,1 @@
+print("Dados salvos aprender python se quiser saber oque fazer com")
