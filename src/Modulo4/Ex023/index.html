@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output</title>
+  </head>
+  <body>
+    <form action="cadastro.php">
+
+        <p>
+
+            <label for="num1">Numero 1:</label>
+            <input type="number" name="num1" id="num1" min="0" max="9" required oninput="isoma.value = Number(num1.value) + Number(num2.value)">
+    
+
+        </p>  
+        <p>
+    
+            <label for="num2">Numero 2:</label>
+            <input type="number" name="num2" id="num2" min="0" max="9" required oninput="isoma.value = Number(num1.value) + Number(num2.value)">
+
+        </p>
+
+        <p>
+
+            <label for="isoma">Soma:</label>
+            <output name="isoma" id="isoma">0</output>
+            
+
+        </p>
+
+        <p>
+
+            <label for="num3">Numero</label>
+            <input type="range" name="num3" id="num3" required oninput="ivalor.value = Number(num3.value)">
+            <output id="ivalor">5</output>
+
+        </p>
+
+
+      <p>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+
+      </p>
+
+    </form>
+
+  </body>
+</html>
