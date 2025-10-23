@@ -10,7 +10,7 @@
 
 html , body {
 
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
 }
@@ -26,13 +26,13 @@ header a {
 
     text-decoration: none;
     padding: 10px;
-    color: blueviolet;
+    color: rgb(33, 121, 197);
 }
 
 header a:hover{
 
-    color: rgb(108, 196, 220);
-    box-shadow: inset 0px -2px 0px 0px rgb(108, 196, 220);
+    color: rgb(2, 30, 185);
+    box-shadow: inset 0px -2px 0px 0px rgb(44, 0, 203);
     transition: 0.3s
 
 }
@@ -44,4 +44,59 @@ header > h1{
     padding: 25px;
     text-align: center;
 
+}
+
+main {
+
+    width: 70%;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;   
+}   
+
+main > article > h1 {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+main > article > p {
+
+    padding: 10px;
+    text-align: justify;
+
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+main h1 {
+
+    font-size: 3em;
+
+}
+
+main p {
+
+    font-size: 1.5em;
+    text-indent: 30px;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;             /* Chrome, Edge, Safari */
 }
