@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuerry.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="login">
+        <div id="imagem"></div>
+
+        <div id="formulario">
+          <h1>login</h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+            poder fazer as configurações de seu ambiente.
+          </p>
+
+          <form action="login.php" method="post">
+            <div class="linha">
+              <label for="idGmail"
+                ><span class="material-symbols-outlined" id="cor"
+                  >account_box</span
+                ></label
+              >
+              <input
+                type="email"
+                name="Gmail"
+                id="idGmail"
+                placeholder="Seu e-mail"
+                autocomplete="email"
+                required
+                maxlength="20"
+              />
+            </div>
+            <div class="linha">
+              <label for="idSenha"
+                ><span class="material-symbols-outlined" id="cor">key</span></label
+              >
+              <input
+                type="password"
+                name="senha"
+                id="idSenha"
+                placeholder="Senha"
+                autocomplete="current-password"
+                required
+                minlength="8"
+              />
+            </div>
+
+            <input type="submit" value="Enviar" />
+
+            <a href="#" id="alinha"
+              >Esqueci a senha
+              <span class="material-symbols-outlined" > mail </span></a
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
