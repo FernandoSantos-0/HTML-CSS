@@ -13,6 +13,25 @@ body {
 
 }
 
+span#menu{
+
+    background-color: rgb(94, 94, 94);
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+span#menu:hover{
+
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+
+}
+
 header {
 
     background-color: gray;
@@ -28,8 +47,8 @@ header > h1 {
 
 menu {
 
-    display: block;
-
+    display: none;
+    
 }
 
 menu > ul {
@@ -52,6 +71,7 @@ menu > ul > li > a {
 menu > ul > li > a:hover{
 
     background-color: lightgrey;
+    transition: 0.5s;
 
 }
 
