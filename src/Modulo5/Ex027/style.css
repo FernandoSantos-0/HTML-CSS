@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.conteiner {
+
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around ;
+    align-items: center;
+    height: 90vh;
+}
+
+.item {
+
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 30px;
+
+}
