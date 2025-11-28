@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  header menu {
+    padding-top: 5px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  header a {
+    
+    background-color: black;
+    width: 80vw;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+    margin-top: 2px;
+
+  }
+}
+
+@media (min-width: 1025px) {
+  header {
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    flex-flow: column nowrap;
+  }
+
+  header menu {
+    flex: initial;
+    padding-top: 5px;
+    margin-left: 20px;
+    align-self: flex-end;
+  }
+}
