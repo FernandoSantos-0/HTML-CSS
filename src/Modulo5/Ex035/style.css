@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.conteiner {
+
+    display: grid;
+
+    background-color: aqua;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px 50px;
+
+    
+   border: 3px solid black;
+
+    
+    align-content: center;
+    justify-content: center;
+    
+    place-content: center center;
+
+    align-items: center;
+    justify-items: center;
+
+    place-items: stretch center;
+
+    grid-auto-rows: 50px;
+
+
+}
+
