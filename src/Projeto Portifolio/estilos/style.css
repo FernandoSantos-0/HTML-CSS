@@ -68,7 +68,7 @@ nav#menu a {
   font-weight: 600;
   padding: 12px 15px;
   border-radius: 5px;
-
+  transition: background-color 0.5s, color 0.5s;
   
 
 }
@@ -77,7 +77,7 @@ nav#menu a:hover{
 
   background-color: var(--destaque-inverso);
   color: var(--destaque);
-  transition: background-color 0.5s, color 0.5s;
+  
 }
 
 main {
@@ -140,14 +140,13 @@ section#ficha div#social {
 section#ficha div#social a {
 
   color: var(--destaque);
-
+  transition: color 0.5s;
 }
 
 section#ficha div#social a:hover{
 
   color: var(--destaque-inverso);
-  transition: color 0.5s;
-
+  
 }
 
 section#detalhes {
@@ -251,13 +250,13 @@ article h2 {
   border-radius: 8px;
   border-left:5px solid var(--destaque-inverso);
   padding-left: 10px;
+  transition: border-left-width 0.5s, border-color 0.5s;
 
 }
 
 #formacao-container .curso:hover {
 
   border-left-width: 15px;
-  transition: border-left-width 0.5s, border-color 0.5s;
   cursor: pointer;
   border-color: var(--destaque);
 
@@ -276,5 +275,53 @@ article h2 {
   color: var(--destaque-inverso);
   font-size: 1.1em;
 
+
+}
+
+#projeto-container {
+
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+
+}
+
+#projeto-container .projeto {
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 8px;
+  border-left:5px solid var(--destaque-inverso) ;
+  transition: border-left-width 0.5s, border-color 0.5s;
+
+}
+
+#projeto-container .projeto:hover {
+
+  border-left-width: 15px;
+  cursor: pointer;
+  border-color: var(--destaque);
+
+} 
+
+#projeto-container .foto {
+
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px;
+
+}
+
+footer {
+
+  text-align: center;
+  background-color: var(--destaque);
+  padding: 15px;
+  color: var(--texto-inverso);
 
 }
